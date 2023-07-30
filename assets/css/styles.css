@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-image: url('../images/bg.png');
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.content {
+    width: 400px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
+
+.content .title {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.content form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.content form input {
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px 13px;
+    font-size: 1.2rem;
+    color: #7b047d;
+    border: none;
+    outline: none;
+}
+
+.content form input::placeholder {
+    color: #7b047d;
+}
+
+.content form button {
+    background: linear-gradient(rgba(72, 0, 97, 0.8), rgba(72, 0, 97, 0.688));
+    color: #fff;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    padding: 20px 13px;
+    border-radius: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.content form button:hover {
+    color: #480061cc;
+    background: #fff;
+}
+
+.content .links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.content .links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.spinner-border {
+    width: 20px !important;
+    height: 20px !important;
+    border-width: 2px !important;
+}
+
+#status {
+    color: red;
+    display: none;
+}
