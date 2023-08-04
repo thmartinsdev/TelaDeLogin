@@ -1,7 +1,7 @@
 
 <h1>Projeto de Tela de Login em HTML,CSS e JavaScript</h1>
 
-<h1>Recursos</h1>
+<h1>Oque Verá no Projeto </h1>
 
 <ul>
   <li>
